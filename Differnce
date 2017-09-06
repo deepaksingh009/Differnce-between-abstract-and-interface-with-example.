@@ -54,4 +54,16 @@ interface INterfacetutorial
 	}
 	
 output:- A class can inherit from multiple interface but we have to implement all the method of all inherit interface's.Without 
-implementation it will show error i.e,	'_class' does not implement interface member 'INterfacetutorial.method1()'	
+implementation it will show error. i.e,	'_class' does not implement interface member 'INterfacetutorial.method1()'.
+
+Note:-we cannot create instance of both interface and abstract class.
+
+
+2.Default implementation:-
+
+Abstraction:-An abstract class can provide complete, default code and/or just the details that have to be overridden.
+
+Example:-
+
+
+
