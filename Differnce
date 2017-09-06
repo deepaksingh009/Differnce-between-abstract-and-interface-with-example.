@@ -63,7 +63,22 @@ Note:-we cannot create instance of both interface and abstract class.
 
 Abstraction:-An abstract class can provide complete, default code and/or just the details that have to be overridden.
 
-Example:-
+Interface:-An interface cannot provide any code, just the signature.
+
+3.Access Modfiers:-
+
+Abstraction:-An abstract class can contain access modifiers for the subs, functions, properties.
+
+interface:-An interface cannot have access modifiers for the subs, functions, properties etc everything is assumed as public.
+
+4.When to use interface and abstration:-
+
+Abstraction :-If various implementations are of the same kind and use common behaviour or status then abstract class is better to use.
+
+Interface :-If various implementations only share method signatures then it is better to use Interfaces.
+
+
+
 
 
 
