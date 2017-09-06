@@ -25,4 +25,33 @@
 
 	}
 
+Output:- Class 'Class1' cannot have multiple base classes: '_abstact1' and '_abstact2'.
 
+Interface :-A class may inherit several interfaces.
+
+Example:-
+interface INterfacetutorial
+	{
+		void method1();
+	}
+
+	interface INInterface1
+	{
+		void method2();
+	}
+
+	public class _class:INterfacetutorial,INInterface1
+	{
+		public void method1()
+		{
+			Console.WriteLine("Method1");
+		}
+		public void method2()
+		{
+			Console.WriteLine("Method1");
+		}
+
+	}
+	
+output:- A class can inherit from multiple interface but we have to implement all the method of all inherit interface's.Without 
+implementation it will show error i.e,	'_class' does not implement interface member 'INterfacetutorial.method1()'	
