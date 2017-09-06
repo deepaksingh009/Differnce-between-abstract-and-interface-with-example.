@@ -1,0 +1,28 @@
+ 1. Multiple inheritance :
+  
+  Abstact class:-A class may inherit only one abstract class.
+  
+  Example :-
+  
+  public abstract class _abstact1
+	{
+		public void Method1()
+		{
+			Console.WriteLine("Method1");
+		}
+	}
+
+	public abstract class _abstact2
+	{
+		public void Method1()
+		{
+			Console.WriteLine("Method1");
+		}
+	}
+
+	public class Class1:_abstact1,_abstact2
+	{
+
+	}
+
+
