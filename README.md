@@ -1,0 +1,1 @@
+# Differnce-between-abstract-and-interface-with-example.
